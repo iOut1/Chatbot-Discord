@@ -7,4 +7,5 @@ chatbot = ChatBot('Communicator')
 trainer = ChatterBotCorpusTrainer(chatbot)
 trainer.train("chatterbot.corpus.english")
 
-chatbot.get_response(Inputs)
+def Response():
+  chatbot.get_response(Inputs)
