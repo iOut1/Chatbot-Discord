@@ -1,6 +1,7 @@
 import discord
 from Chatbot import Response
-
+from chatterbot import ChatBot
+from chatterbot.trainers import ChatterBotCorpusTrainer
 
 client = discord.Client()
 
