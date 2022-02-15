@@ -1,5 +1,5 @@
 import discord
-from Chatbot import *
+from Chatbot import Response
 
 
 client = discord.Client()
