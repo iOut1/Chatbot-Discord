@@ -9,3 +9,4 @@ trainer.train("chatterbot.corpus.english")
 
 def Response():
   Reply = chatbot.get_response(Inputs)
+  return Reply
