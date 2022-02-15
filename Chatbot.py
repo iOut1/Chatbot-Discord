@@ -1,6 +1,5 @@
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
-from Messages import *
 
 
 chatbot = ChatBot('Communicator')
