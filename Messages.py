@@ -13,5 +13,5 @@ async def on_ready():
     if message.author == client.user:
       return
     else:
-      Inputs =  message
+      await message.channel.send(Response(message))
      
