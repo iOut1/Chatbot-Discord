@@ -1,4 +1,6 @@
 import discord
+from Chatbot import *
+
 
 client = discord.Client()
 
@@ -11,5 +13,5 @@ async def on_ready():
     if message.author == client.user:
       return
     else:
-      Message =  message
+      Inputs =  message
      
